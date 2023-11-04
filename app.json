@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "organization",
-    "slug": "organization",
+    "name": "Meu QRCode",
+    "slug": "QRCode",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/minhoca.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/minhoca.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -19,12 +19,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/minhoca.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.vingren.QRCode"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "eefe419c-a128-43ef-9905-52480fee9fa0"
+      }
     }
   }
 }
